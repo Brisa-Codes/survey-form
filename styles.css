@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600&display=swap');
+
+body {
+  background-image: url(https://images.unsplash.com/photo-1549492423-400259a2e574?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=277&q=80);
+  background-size: cover;
+  background-position: center center;
+  font-family: poppins;
+}
+
+#title {
+  text-align: center;
+  padding-top: 1.8em;
+  color: white;
+  font-size: 1.8em;
+}
+
+.title-text {
+  text-align: center;
+  color: white;
+  font-size: 1em;
+  font-style: italic;
+}
+
+.form-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#survey-form {
+    width: 60%;
+    padding: 5%;
+    background-color: #1b1b32;
+    opacity: 0.9;
+}
+
+label {
+  color: white;
+  font-size: 16px;
+}
+
+#name, #email, #number, #submit {
+  width: 100%;
+  height: 30px;
+  padding: 1.2em;
+  border: 0px;
+  outline: none;
+  font-family: poppins;
+  font-size: 16px;
+
+}
+
+.input {
+    margin-bottom: 2em;
+}
+
+.input-class {
+    font-family: poppins, 'sans';
+    width: 100%;
+    padding: 11px;
+    padding-bottom: 1.8rem;
+    font-size: 16px;
+    border-width: 1px;
+    border-color: #000000;
+    background-color: #ffffff;
+    color: #000000;
+    border-style: solid;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.75);
+}
+
+::placeholder {
+    letter-spacing: 1px;
+    font-weight: 400;
+    color: #000000;
+}
+
+option {
+    font-weight: normal;
+    display: block;
+    padding: 11px;
+    min-height: 1.2em;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#dropdown {
+    width: 100%;
+    padding: 1.2em;
+    font-size: 16px;
+}
+
+.dropdown-text {
+    font-family: poppins;
+    font-size: 16px;
+    font-weight: 400;
+    outline: none;
+    border: 1px solid #ffffff;
+    display: block;
+}
+
+.radio-text {
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.feature-text {
+    color: #ffffff;
+    font-weight: 400;
+    margin-top: 2rem;
+    font-size: 16px;
+}
+
+.fav-dropdown {
+    margin-bottom: 2rem;
+}
+
+textarea {
+    font-family: poppins;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.comments-textarea {
+    min-height: 120px;
+    width: 100%;
+    padding: 0.6rem;
+    resize: vertical;
+}
+
+#email-label label {
+  padding-top: 20px;
+}
+
+.form-btn {
+    margin-top: 2rem;
+}
+
+.submit-btn {
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    background: #37af65;
+    color: inherit;
+    border: 2px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    border-radius: 5px;
+}
